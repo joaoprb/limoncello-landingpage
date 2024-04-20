@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(255, 230, 0);
+}
+
+html {
+    color: rgb(37, 35, 35);
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 230, 0);
+}
+
+header > h1 {
+    margin-right: 20px;
+    font-family: 'Italiana', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.logo {
+    box-sizing: content-box;
+    padding-left: 50px;
+    width: 100px;
+}
+
+.logo > img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    display: flex;
+    height: calc(100vh - 70px);
+}
+
+.esq {
+    background-color: white;
+    flex: 1;
+    height: 100%;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.info > h2 {
+    font-size: 3.2rem;
+    font-family: 'Italiana', sans-serif;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info > p {
+    font-size: 1.2rem;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btn {
+    color: black;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 20px;
+    transition: box-shadow .5s ease-in-out, transform .5s ease-in-out;
+}
+
+.btn:hover {
+    box-shadow: 3px 10px 20px rgba(0, 0, 0, .3);
+    transform: translateY(-5px);
+}
+
+.button {
+    display: flex;
+}
+
+.detalhes {
+    background-color: rgba(238, 238, 5, 0.795);
+}
+
+.dir {
+    background-color: rgba(238, 238, 5, 0.795);
+    flex: 1;
+    height: 100%;
+    position: relative;
+}
+
+.dir > img {
+    position: absolute;
+    left: 90px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    max-width: 500px;
+}
+
+.detalhes-div {
+    height: 300px;
+    text-align: center;
+    margin-top: 125px;
+    padding-bottom: 150px;
+}
+
+.detalhes-titulo {
+    font-family: 'Italiana', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.detalhes-texto {
+    font-size: 1.5rem;
+    margin-left: 300px;
+    margin-right: 300px;
+}
